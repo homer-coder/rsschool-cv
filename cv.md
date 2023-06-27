@@ -22,8 +22,8 @@ I always achieve my goals and objectives and this is my strong side. I like to t
 
 ### Education
 
-Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+2022-2023 Web development courses school Geekbrains
 
-Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
+2023Q2 Frontend development Rs school
 
 English language: A1
