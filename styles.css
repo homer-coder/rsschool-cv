@@ -101,7 +101,8 @@ body {
 
 .contacts-title,
 .summary-title,
-.skills-title {
+.skills-title,
+.code-title {
   margin-top: 50px;
   padding: 0;
   text-transform: uppercase;
