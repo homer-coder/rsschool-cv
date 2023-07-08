@@ -1,0 +1,179 @@
+@font-face {
+  font-family: Roboto;
+  src: url("assets1/fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("assets1/fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.page-header {
+  min-height: 100vh;
+  background-color: aqua;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list,
+.contacts-list,
+.skills-list,
+.courses-list {
+  list-style: none;
+}
+
+.nav-list:first-child {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  transition: .3s;
+  color: aliceblue;
+}
+
+.nav-link:first-child {
+  padding: 0;
+}
+
+.profile {
+  margin-top: 100px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  height: 350px;
+  max-width: 100%;
+}
+
+.profile-title {
+  margin-top: 35px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.profile-subtitle {
+  margin-bottom: 5px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.contacts-title,
+.summary-title,
+.skills-title,
+.code-title,
+.courses-title,
+.education-title,
+.projects-title,
+.english-title {
+  margin-top: 100px;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contacts-list,
+.courses-list {
+  line-height: 1.5;
+}
+
+.summary-subtitle {
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.skills-list {
+  text-transform: uppercase;
+  line-height: 2.2;
+}
+
+.education-subtitle {
+  letter-spacing: 3px;
+}
+
+.cv-link {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.section-english {
+  margin-bottom: 100px;
+}
+
+.page-footer {
+  background-color: aqua;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  transition: .3s;
+  color: aliceblue;
+}
+
+.wrapper-course {
+  width: 100px;
+  height: 45px;
+}
