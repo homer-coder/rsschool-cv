@@ -3,10 +3,124 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Hello world!</h1>
+    <header class="page-header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+          </ul>
+        </nav>
+        <section class="profile">
+          <img class="profile-img" src="assets1/img/homer-coder.jpg" alt="photo-homer-simpson">
+          <h1 class="profile-title">Filipp Gribov</h1>
+          <p class="profile-subtitle">Junior Front-End Developer</p>
+        </section>
+      </div>
+    </header>
+    <main>
+      <div class="container main-container">
+        <section class="section" id="contacts">
+          <div class="section-contacts">
+            <h2 class="contacts-title">Contacts</h2>
+            <ul>
+              <li class="contacts-list">Relocation: Moscow, Russia</li>
+              <li class="contacts-list">Telegram: @lipunchikk</li>
+              <li class="contacts-list">Discord: Filipp(@homer-coder)</li>
+              <li class="contacts-list">Email: filippgrib777@gmail.com</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="summary">
+          <div class="section-summary">
+            <h2 class="summary-title">Summary</h2>
+            <p class="summary-subtitle">
+              Hello world! My name is Filipp.I am 35 years old, I am from Russia (Moscow).
+              I always achieve my goals and objectives and this is my strong side. I like to travel and started to learn frontend development to become more mobile and not to sit in one place. And I will do it!
+              I like programming!
+            </p>
+          </div>
+        </section>
+        <section class="section" id="skills">
+          <div class="section-skills">
+            <h2 class="skills-title">Skills</h2>
+            <ul>
+              <li class="skills-list">html5: 90%</li>
+              <li class="skills-list">css3: 50%</li>
+              <li class="skills-list">javaScript: 15%</li>
+              <li class="skills-list">git: 40%</li>
+              <li class="skills-list">figma: 50%</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="code">
+          <div class="section-code">
+            <h2 class="code-title">Code</h2>
+            <pre>
+              <code>
+                function sum(a, b) {
+                  return a + b;
+                }
+
+                let result = sum(1, 2);
+                alert( result ); // 3
+              </code>
+            </pre>
+          </div>
+        </section>
+        <section class="section" id="courses">
+          <div class="section-courses">
+            <h2 class="courses-title">Courses</h2>
+            <ul>
+              <li class="courses-list">2022-2023 Web development courses school Geekbrains</li>
+              <li class="courses-list">2023Q1 Layout designer courses school Hexlet</li>
+              <li class="courses-list">2023Q2 Front-End developer course school Rs school</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="education">
+          <div class="section-education">
+            <h2 class="education-title">Education</h2>
+            <p class="education-subtitle">Saratov Technical Universiti</p>
+          </div>
+        </section>
+        <section class="section" id="projects">
+          <div class="section-projects">
+            <h2 class="projects-title">Projects</h2>
+            <a class="cv-link" href="https://homer-coder.github.io/rsschool-cv/cv" target="_blank">cv</a>
+          </div>
+        </section>
+        <section class="section" id="english">
+          <div class="section-english">
+            <h2 class="english-title">English</h2>
+            <p class="english-subtitle">A1</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="wrapper">
+          <div class="wrapper-year">
+            <a class="footer-link" href="https://github.com/homer-coder/" target="_blank">My Github</a>
+            <p>&copy; 2023</p>
+          </div>
+          <div class="wrapper-course">
+            <a class="footer-link" href="https://rs.school/js/" target="_blank">Rs school</a>
+            <img src="assets1/img/rs_school_js.svg" alt="logo-rsschool">
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
