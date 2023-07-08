@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -151,4 +151,29 @@ body {
 
 .section-english {
   margin-bottom: 100px;
+}
+
+.page-footer {
+  background-color: aqua;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  transition: .3s;
+  color: aliceblue;
+}
+
+.wrapper-course {
+  width: 100px;
+  height: 45px;
 }
