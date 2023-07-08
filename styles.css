@@ -40,7 +40,8 @@ body {
 
 .nav-list,
 .contacts-list,
-.skills-list {
+.skills-list,
+.courses-list {
   list-style: none;
 }
 
@@ -102,8 +103,10 @@ body {
 .contacts-title,
 .summary-title,
 .skills-title,
-.code-title {
-  margin-top: 50px;
+.code-title,
+.courses-title,
+.education-title {
+  margin-top: 100px;
   padding: 0;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -111,7 +114,8 @@ body {
   font-weight: 700;
 }
 
-.contacts-list {
+.contacts-list,
+.courses-list {
   line-height: 1.5;
 }
 
@@ -123,4 +127,8 @@ body {
 .skills-list {
   text-transform: uppercase;
   line-height: 1.5;
+}
+
+.education-subtitle {
+  letter-spacing: 3px;
 }
