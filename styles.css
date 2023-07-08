@@ -110,7 +110,8 @@ body {
 .code-title,
 .courses-title,
 .education-title,
-.projects-title {
+.projects-title,
+.english-title {
   margin-top: 100px;
   padding: 0;
   text-transform: uppercase;
@@ -136,4 +137,13 @@ body {
 
 .education-subtitle {
   letter-spacing: 3px;
+}
+
+.cv-link {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.section-english {
+  margin-bottom: 100px;
 }
