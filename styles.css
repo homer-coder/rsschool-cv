@@ -10,6 +10,10 @@
   font-weight: 700;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   font-family: Roboto, sans-serif;
 }
@@ -18,3 +22,57 @@ body {
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list:first-child {
+  padding: 0;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.profile {
+  margin-top: 100px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  height: 350px;
+  width: 350px;
+}
+
+.profile-title {
+  margin-top: 35px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.profile-subtitle {
+  margin-bottom: 5px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
