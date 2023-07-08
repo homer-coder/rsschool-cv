@@ -98,7 +98,12 @@ body {
   width: 50%;
 }
 
-.contacts-title {
+.contacts-title,
+.summary-title {
   margin-top: 50px;
   padding: 0;
+}
+
+.summary-subtitle {
+  margin-bottom: 50px;
 }
