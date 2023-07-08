@@ -60,6 +60,11 @@ body {
   text-decoration: none;
 }
 
+.nav-link:hover {
+  transition: .3s;
+  color: aliceblue;
+}
+
 .nav-link:first-child {
   padding: 0;
 }
