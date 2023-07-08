@@ -39,7 +39,8 @@ body {
 }
 
 .nav-list,
-.contacts-list {
+.contacts-list,
+.skills-list {
   list-style: none;
 }
 
@@ -99,11 +100,26 @@ body {
 }
 
 .contacts-title,
-.summary-title {
+.summary-title,
+.skills-title {
   margin-top: 50px;
   padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contacts-list {
+  line-height: 1.5;
 }
 
 .summary-subtitle {
   margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.skills-list {
+  text-transform: uppercase;
+  line-height: 1.5;
 }
