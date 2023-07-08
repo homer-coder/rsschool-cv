@@ -79,7 +79,7 @@ body {
 
 .profile-img {
   height: 350px;
-  width: 350px;
+  max-width: 100%;
 }
 
 .profile-title {
@@ -95,7 +95,7 @@ body {
   margin-bottom: 5px;
   padding: 0;
   font-size: 18px;
-  font-weight: 400px;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
 }
